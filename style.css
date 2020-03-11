@@ -1,5 +1,5 @@
-p {
-  text-align: justify;
-  font-family: arial;
-  line-height: 80%;
+inlinetext {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif
+  line-height: 1.6;
 }
