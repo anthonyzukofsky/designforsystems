@@ -10,10 +10,10 @@ body {
 
 a:link {
   color: blue;
-  text-decoration: : none;
+  text-decoration-style: dotted;
 }
 
 a:hover {
   color: black;
-  text-decoration: : none;
+  text-decoration-style: dotted;
 }
