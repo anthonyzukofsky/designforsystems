@@ -2,13 +2,18 @@ body {
   background-color: #888888;
 }
 
+#inline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 a:link {
   color: blue;
   text-decoration: : none;
 }
 
-#inline {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 20px;
+a:hover {
+  color: black;
+  text-decoration: : none;
 }
