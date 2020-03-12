@@ -16,10 +16,10 @@ body {
 
 a:link {
   color: blue;
-  text-decoration-style: dotted;
+  text-decoration-style: none;
 }
 
 a:hover {
   color: black;
-  text-decoration-style: dotted;
+  text-decoration-style: none;
 }
