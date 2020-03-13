@@ -17,11 +17,11 @@ body {
 }
 
 a:link {
-  color: blue;
+  color: #334AD6;
   text-decoration-style: none;
 }
 
 a:hover {
-  color: black;
+  color: #A1531B;
   text-decoration-style: none;
 }
