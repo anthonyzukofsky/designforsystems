@@ -15,18 +15,20 @@
 <! –– 1st column content -–>
 
   <div class="course-info">
-          <div class="col">
-              <div>
-                  <p>DESIGN FOR SYSTEM
+
+                  <p>
+                  <br>DESIGN FOR SYSTEMS
                   <br>This is the teaching portal of Anthony Zukofsky
                   <br>Email, Twitter, Are.na
                   </p>
 
-                  <p>CURRENT
+                  <p>
+                  <br>CURRENT
                   <br>Basic Graphic Design I-II, School of Visual Arts, Spring 2020
                   </p>
 
-                  <p>PREVIOUS
+                  <p>
+                  <br>PREVIOUS
                   <br>Basic Graphic Design I-II, School of Visual Arts, Fall 2019
                   <br>Basic Graphic Design I-II, School of Visual Arts, Spring 2019
                   <br>Basic Graphic Design I-II, School of Visual Arts, Fall 2018
@@ -34,7 +36,8 @@
                   <br>Basic Graphic Design I-II, School of Visual Arts, Fall 2017
                   </p>
 
-                  <p>VISITING CRITIC, LECTURES, WORKSHOPS, ETC.
+                  <p>
+                  <br>VISITING CRITIC, LECTURES, WORKSHOPS, ETC.
                   <br>Thesis, Rowan University, Visiting Critic, forthcoming
                   <br>Typography & Interactions, Parsons New School, Visiting Critic, Spring 2018
                   <br>Typography III, Pratt Institute, Visiting Critic, Fall 2017
@@ -43,7 +46,8 @@
                   <br>Branding I, School of Visual Arts, Guest Lecturer, Fall 2016
                   </p>
 
-                  <p>PROJECTS
+                  <p>
+                  <br>PROJECTS
                   <br>— An Assemblage
                   <br>— Post–Protest
                   <br>— A Basic Reade
@@ -54,33 +58,32 @@
                   <br>— Bootlegging
                   </p>
 
-              </div>
 
-          </div>
+                  <div class="col">
 
-          <div class="col">
+                      <br><div id="clockbox"></div>
 
-              <br><div id="clockbox"></div>
+                      <script type="text/javascript">
+                      function GetClock(){
+                      var d=new Date();
+                      var nmonth=(d.getMonth()+1),ndate=d.getDate(),nyear=d.getFullYear();
+                      if(nmonth<=9) nmonth="0"+nmonth;
+                      if(ndate<=9) ndate="0"+ndate;
+                      var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+                      if(nmin<=9) nmin="0"+nmin;
+                      if(nsec<=9) nsec="0"+nsec;
 
-              <script type="text/javascript">
-              function GetClock(){
-              var d=new Date();
-              var nmonth=(d.getMonth()+1),ndate=d.getDate(),nyear=d.getFullYear();
-              if(nmonth<=9) nmonth="0"+nmonth;
-              if(ndate<=9) ndate="0"+ndate;
-              var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
-              if(nmin<=9) nmin="0"+nmin;
-              if(nsec<=9) nsec="0"+nsec;
+                      var clocktext=""+nyear+"-"+nmonth+"-"+ndate+" "+nhour+":"+nmin+":"+nsec+"";
+                      document.getElementById('clockbox').innerHTML=clocktext;
+                      }
 
-              var clocktext=""+nyear+"-"+nmonth+"-"+ndate+" "+nhour+":"+nmin+":"+nsec+"";
-              document.getElementById('clockbox').innerHTML=clocktext;
-              }
+                      GetClock();
+                      setInterval(GetClock,1000);
+                      </script>
 
-              GetClock();
-              setInterval(GetClock,1000);
-              </script>
+                    </div>
 
-            </div>
+
       </div>
 
 <! –– 2nd column content -–>
